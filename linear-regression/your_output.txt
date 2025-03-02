@@ -1,0 +1,25 @@
+Q2:
+[[0.  1. ]
+ [0.5 1. ]
+ [1.  1. ]]
+Q3:
+[-21.         135.16666667]
+Q4a:
+[0. 0.]
+[30.70107492 74.43550295]
+[32.77049906 96.45819629]
+[ 28.31457658 104.86927867]
+[ 22.82179505 109.499432  ]
+[ 17.6015202  112.86972697]
+[ 12.91861334 115.65321437]
+[  8.7825806  118.05246758]
+[  5.14554887 120.14743019]
+[  1.95132189 121.98360183]
+Q4b: 0.3
+Q4c: 500
+Q4d: I started with a small learning rate (0.01) and 100 epochs. This was very off, so I then upped the epochs to 250, and then 500, still being far from the closed-form solution. I then started turning the learning rate up, while still keeping epochs at 500. I started with 0.1, which got me slightly closer, and I kept increasing it until I got a value that was extremely close to the closed-form solution, using a learning rate of 0.3 and keeping epochs at 500. The weight and bias were still converging, so I knew my learning rate wasn't too high. 
+Q5: -2206.3333333333335
+Q6a: <
+Q6b: If the weight is greater than 0, it means that the total number of frozen days increases from year to year. If the weight is less than 0, it means that the total number of frozen days decreases from year to year. If the weight is equal to 0, it means that the total number of frozen days remains constant from year to year.
+Q7a: 1812.873015873016
+Q7b: 
